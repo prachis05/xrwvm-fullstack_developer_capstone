@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Best Cars Dealership</title>
+
+  <!-- ✅ Add stylesheets -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+
+<body>
+  <!-- ✅ Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%; color:white;">Dealerships</h2>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link active" style="font-weight: bold;" href="/contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✅ Page content -->
+  <div class="container" style="margin-top: 3%;">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Use the form below or reach us using the contact details provided.</p>
+
+    <form style="max-width: 600px; background-color: #f9f9f9; padding: 20px; border-radius: 8px;">
+      <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your name">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Type your message..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <div style="margin-top: 40px;">
+      <h3>Head Office</h3>
+      <p>
+        📍 Best Cars Dealership<br>
+        123 Auto Lane, Detroit, MI 48201<br>
+        ☎️ +1 (800) 555-0199<br>
+        ✉️ contact@bestcars.com
+      </p>
+    </div>
+  </div>
+</body>
+</html>
